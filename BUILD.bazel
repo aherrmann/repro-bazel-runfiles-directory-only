@@ -1,0 +1,5 @@
+cc_binary(
+    name = "binary",
+    srcs = ["main.cc"],
+    data = ["data.txt"],
+)
